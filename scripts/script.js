@@ -8,8 +8,8 @@ window.onload = function () {
 
 
 
+   
    document.body.addEventListener('mousemove', parallax)
-  
    
    function parallax(event) {
       // console.log(event.clientX);
@@ -19,13 +19,14 @@ window.onload = function () {
         layer.getAttribute('data-depth');
         let speed=layer.getAttribute('data-depth');
         
+        
          // layer.style.transform = `translateX(${event.clientX.speed / 1000}px)`
         
-        layer.style.transform=`translate(${event.clientX *speed/3000}px,${event.clientX *speed/3000}px)`
-         
+        layer.style.transform=`translate(${event.clientX *speed/1150}px,${event.clientX *speed/1110}px)`
+       
       })
    }
-
+   
 }
 
 
